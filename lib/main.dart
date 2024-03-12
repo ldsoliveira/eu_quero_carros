@@ -10,9 +10,6 @@ import 'package:eu_quero_carros/dependency_injection.dart' as di;
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
 
-
-// TODO: revisa tudo
-// TODO: testar o código
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await di.init();
